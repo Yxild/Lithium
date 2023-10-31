@@ -94,4 +94,4 @@ return {
 
 
 <h3>Question: <span>Do you have a Discord Server?</span></h3>
-<h3>Answer: <span style="text-size: 16px">Not yet, in the future there soon will be one for Lithium and it's other Projects</span></h3>
+<h3>Answer: <span>Not yet, in the future there soon will be one for Lithium and it's other Projects</span></h3>
