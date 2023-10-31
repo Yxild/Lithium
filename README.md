@@ -1,6 +1,6 @@
 # Lithium
 Lithium Commands: A Server-Sided ROBLOX Command Handler meant for Game Developers!
-
+#### Warning: Lithium is currently in BETA, this means this won't be the final version.
 
 ## What is Lithium?
 Lithium is basically just a very lightweight, simplistic Adminstration Utility for ROBLOX game developers, it's super easy to use and probably one of the best Admin Tools out.
@@ -37,7 +37,7 @@ return {
 > Usage: Shows the usage of the Command, (Note: you can keep this empty)
 > CommandInvoked: This is what will be invoked when your command is called by the Interface.
 
-WARNING: With `CommandInvoked`, be aware that all arguments are passed as strings, this may soon change though as there is possible methods via Functions that exist.
+#### WARNING: With `CommandInvoked`, be aware that all arguments are passed as strings, this may soon change though as there is possible methods via Functions that exist.
 
 
 ## Example Commands (Default Example)
