@@ -85,12 +85,12 @@ return {
 ### WARNING: This is a beta feature, we are looking to prevent spamming! If you know how to do this please make a Pull Request, we're trying to make a better method to this!
 
 ## FAQ
-<h3>Question: </h3><span>How to use a Command?</span>
-<h3>Answer: </h3><span>Please refer to the above text :)</span>
+<h3>Question: <span>How to use a Command?</span></h3>
+<h3>Answer: <span>Please refer to the above text :)</span></h3>
 
 
-<h3>Question: </h3><span>How to use a Discord/Guilded Webhook for ROBLOX?</span>
-<h3>Answer: </h3><span>Please refer to the above text (x2)</span>
+<h3>Question: <span>How to use a Discord/Guilded Webhook for ROBLOX?</span></h3>
+<h3>Answer: <span>Please refer to the above text (x2)</span></h3>
 
 
 <h3>Question: <span>Do you have a Discord Server?</span></h3>
