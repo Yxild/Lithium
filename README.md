@@ -23,11 +23,11 @@ The other file called "Replicated Storage.rbxm" will be imported into `Replicate
 return {
     Example1 = {
         ["Title"] = "",
-		    ["Description"] = "",
-		    ["Usage"] = "",
-		    ["CommandInvoked"] = (function(...)
-            -- Command
-		    end)
+	["Description"] = "",
+	["Usage"] = "",
+	["CommandInvoked"] = (function(...)
+            -- Command Inputted Here
+	end)
     }
 }
 ```
@@ -40,7 +40,7 @@ return {
 WARNING: With `CommandInvoked`, be aware that all arguments are passed as strings, this may soon change though as there is possible methods via Functions that exist.
 
 
-## Example Commands (DEFAULT)
+## Example Commands (Default Example)
 ```lua
 -- Commands Module @ Lithium Commands - (C) 2023
 
