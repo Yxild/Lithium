@@ -40,18 +40,41 @@ return {
 WARNING: With `CommandInvoked`, be aware that all arguments are passed as strings, this may soon change though as there is possible methods via Functions that exist.
 
 
-## Example Command
+## Example Commands (DEFAULT)
 ```lua
-Example3 = {
-		    ["Title"] = "Example3",
-		    ["Description"] = "Id sit quas et ut sunt sapiente nobis. Sint aut quibusdam sed quisquam excepturi et. Autem modi quisquam fugiat.",
-		    ["Usage"] = "<bool>",
-		    ["CommandInvoked"] = (function(bool)
-			    if (bool == "true") then
-				    print("Called Example 3 via Client to Server but it's a Bool = true")
-        else
-				    print("Called Example 3 via Client to Server but it's a Bool = false")
-			      end
-        end)
-    }
+-- Commands Module @ Lithium Commands - (C) 2023
+
+return {
+	Example1 = {
+		["Title"] = "Example1",
+		["Description"] = "Id sit quas et ut sunt sapiente nobis. Sint aut quibusdam sed quisquam excepturi et. Autem modi quisquam fugiat.",
+		["Usage"] = "<username> <bool> <int>",
+		
+		["CommandInvoked"] = (function(username, bool, int)
+			print(tostring(username), tostring(bool), tostring(int))
+		end)
+	},
+	Example2 = {
+		["Title"] = "Example2",
+		["Description"] = "Id sit quas et ut sunt sapiente nobis. Sint aut quibusdam sed quisquam excepturi et. Autem modi quisquam fugiat.",
+		["Usage"] = "None",
+
+		["CommandInvoked"] = (function()
+			print("Called Example 2 via Client to Server")
+		end)
+	},
+	Example3 = {
+		["Title"] = "Example3",
+		["Description"] = "Id sit quas et ut sunt sapiente nobis. Sint aut quibusdam sed quisquam excepturi et. Autem modi quisquam fugiat.",
+		["Usage"] = "<bool>",
+
+		["CommandInvoked"] = (function(bool)
+			if (bool == "true") then
+				print("Called Example 3 via Client to Server but it's a Bool = true")
+			else
+				print("Called Example 3 via Client to Server but it's a Bool = false")
+			end
+		end)
+	}
+}
 ```
