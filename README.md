@@ -93,5 +93,5 @@ return {
 <h3>Answer: </h3><span>Please refer to the above text (x2)</span>
 
 
-<h3>Question: </h3><span>Do you have a Discord Server?</span>
-<h3>Answer: </h3><span>Not yet, in the future there soon will be one for Lithium and it's other Projects</span>
+<h3>Question: <span>Do you have a Discord Server?</span></h3>
+<h3>Answer: <span>Not yet, in the future there soon will be one for Lithium and it's other Projects</span></h3>
