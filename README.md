@@ -7,7 +7,7 @@ Lithium is basically just a very lightweight, simplistic Adminstration Utility f
 
 
 ## How to use Lithium
-These are .rbxm files, these are "model files" for ROBLOX and they can be imported by using the "Insert from File..." feature in ROBLOX,
+These are .rbxm files, these are "model files" for ROBLOX and they can be imported by using the "Insert from File" feature in ROBLOX,
 Files like these will need to be imported by hand.
 
 To import these 2 files ("Server Script Service.rbxm" & "Replicated Storage.rbxm") go download these 2 files, then right click on `ServerScriptService` on ROBLOX studio to Import one of the .RBXM files, the file that you'd be importing in `ServerScriptService` is "Server Script Service.rbxm"
