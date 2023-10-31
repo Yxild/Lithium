@@ -4,6 +4,7 @@ Lithium Commands: A Server-Sided ROBLOX Command Handler meant for Game Developer
 
 ## What is Lithium?
 Lithium is basically just a very lightweight, simplistic Adminstration Utility for ROBLOX game developers, it's super easy to use and probably one of the best Admin Tools out.
+It also has a awesome advantage and it's mostly Server Sided, it's highly secure and makes it great for ROBLOX game developers who doesn't want ROBLOX Exploiters "exploiting" their Functions and Commands!
 
 
 ## How to use Lithium
@@ -78,3 +79,19 @@ return {
 	}
 }
 ```
+
+
+## Discord/Guilded Webhook Support!
+### WARNING: This is a beta feature, we are looking to prevent spamming! If you know how to do this please make a Pull Request, we're trying to make a better method to this!
+
+## FAQ
+<h3>Question: </h3><span>How to use a Command?</span>
+<h3>Answer: </h3><span>Please refer to the above text :)</span>
+
+
+<h3>Question: </h3><span>How to use a Discord/Guilded Webhook for ROBLOX?</span>
+<h3>Answer: </h3><span>Please refer to the above text (x2)</span>
+
+
+<h3>Question: </h3><span>Do you have a Discord Server?</span>
+<h3>Answer: </h3><span>Not yet, in the future there soon will be one for Lithium and it's other Projects</span>
